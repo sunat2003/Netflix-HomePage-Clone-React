@@ -1,0 +1,56 @@
+.kids-section{
+    display:flex;
+    align-items:center;
+    height:auto;
+    width:100%;
+    margin:100px 0;
+}
+
+.kids-image-section{
+    padding:20px;
+    width:50%;
+}
+.kids-image-section img{
+   width:100%;
+}
+.kids-details-section{
+    width:50%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.kids-details-section h1{
+    font-size:50px;
+    margin:20px 0; 
+    text-align:center;
+}
+
+.kids-details-section p{
+    font-size:20px;
+    margin:20px 0; 
+    text-align:center;
+}
+
+
+
+
+
+@media(max-width :1000px){
+    .kids-section{
+        flex-direction: column;
+    }
+    .kids-image-section{
+        width:100%;
+    }
+    .kids-details-section{
+        width:100%;
+    }
+    .kids-details-section h1{
+        font-size:30px;
+    }
+    .kids-details-section p{
+        font-size:20px;
+    }
+}

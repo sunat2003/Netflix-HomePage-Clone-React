@@ -1,0 +1,37 @@
+.footer-section{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    margin:50px 0;
+}
+.footer-section p{
+    text-decoration: underline;
+}
+.footer-para{
+   text-align:center; 
+}
+.footer-details{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding:50px 0;
+}
+.footer-details-each{
+    display:flex;
+    flex-direction:column;
+    row-gap:20px;
+}
+
+.footer-details-each h6{
+    font-size:20px;
+    font-weight:300;
+}
+
+
+
+
+@media(max-width:1000px){
+    .footer-select{
+        display:block;
+    }
+}

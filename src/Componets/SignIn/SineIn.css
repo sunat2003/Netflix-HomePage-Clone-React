@@ -1,0 +1,120 @@
+.sign-In-section{
+    background-image:url("../../Image/netflix-banner.jpg");
+    height:100vh;
+    width:100%;
+}
+.sineIn-shade{
+   height:100%;
+   width:100%;
+   background:rgba(0,0,0,0.5);
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   position:relative;
+}
+
+.netflix-signin-form{
+    width:450px;
+    display:flex;
+    flex-direction:column;
+    padding:50px;
+    background:rgba(0,0,0,0.7);
+    border:1px solid #000;
+    border-radius:5px;
+}
+.netflix-signin-form h1{
+    margin-bottom: 20px;
+}
+.netflix-form-input{
+    width:100%;
+    border:1px solid gray;
+    background:rgba(50, 48, 48, 0.3);
+    padding:15px 10px;
+    border-radius:5px;
+    margin:10px 0;
+    font-size:17px;
+    transition:0.4s;
+}
+.netflix-form-input:hover{
+    outline:2px solid white;
+}
+
+.form-btn{
+    width:100%;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    background:red;
+    padding:10px 10px;
+    margin:10px 0;
+    font-size:18px;
+}
+.form-or{
+    text-align:center;
+    font-size:18px;
+    font-weight:300;
+}
+.btn-gray{
+    background:rgba(124, 111, 111, 0.4);
+}
+.form-forget{
+    text-align:center;
+    font-size:17px;
+}
+.form-forget:hover{
+    text-decoration: underline;
+}
+.check-div{
+    display:flex;
+    margin:15px 0;
+    column-gap:5px;
+}
+.sine-up-form{
+    font-size:17px;
+    font-weight:300;
+    margin:10px 0;
+}
+.sine-up-form span{
+    font-weight:500;
+    cursor: pointer;
+}
+.sine-up-form span:hover{
+    text-decoration: underline;
+}
+.form-footer-para{
+    font-size:14px;
+    color:rgb(96, 93, 93);
+}
+.form-footer-para span{
+    color:rgb(37, 37, 132);
+    font-weight:400;
+}
+.sineIn-shade img{
+    width:250px;
+    height:70px;
+    position:absolute;
+    left:5%;
+    top:2%;
+}
+
+
+
+
+@media(max-width:780px){
+    .sineIn-shade{
+        background:#000;
+    }
+    .sineIn-shade img{
+        width:130px;
+        height:40px;
+        position:absolute;
+        left:5%;
+        top:2%;
+    }
+}
+@media(max-width:350px){
+    .netflix-signin-form{
+        width:100%;
+        padding: 200px 10px 0 10px;
+    }
+}
